@@ -133,7 +133,7 @@ def littleLegend(x, y):
     pg.moveTo(x, y, 0.5)
     pg.mouseDown(button='right')
     sleep(0.5)
-    pg.mouseDown(button='right')
+    pg.mouseUp(button='right')
 
 def moveLittleLegend():
     path = randrange(9)
